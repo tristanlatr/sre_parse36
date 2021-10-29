@@ -2,9 +2,9 @@
 
 ### Why
 
-The initial motivation to create ``sre_parse36`` is to provide a colorizer for regular expressions that produce the *same* expression as initially provided. 
+The initial motivation to "create" ``sre_parse36`` is to provide a colorizer for regular expressions that produce the *same* expression as initially provided. 
 
-The handling of non-capturing groups changed from Python 3.7, we can't back reproduce the original regular expression from a ``SubPattern`` instance anymore. 
+The handling of non-capturing groups changed from Python 3.7, we can't back reproduce the original regular expression from a ``SubPattern`` instance anymore. This regression is tracked at https://bugs.python.org/issue45674, hopefully it will be fixed in a future Python 3.9 bugfix release.
 
 In Python 3.6: 
 
